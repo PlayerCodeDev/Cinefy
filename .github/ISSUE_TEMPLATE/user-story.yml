@@ -14,17 +14,19 @@ body:
         Añade la siguiente información para crear una historia de usuario, agregando información clara y precisa para su desarrollo.
 
   - type: textarea
+    id: user-story-description
     attributes:
       label: Descripción de la Historia de Usuario
       description: Usa el formato como [tipo de usuario] quiero [acción o funcionalidad] para [beneficio o razón].
       placeholder: |
         como usuario registrado
-        quiero poder iniciar seción en la aplicación
+        quiero poder iniciar sesión en la aplicación
         para acceder a mi lista personalizada de películas.
       validations:
         required: true
 
   - type: textarea
+    id: acceptance-criteria
     attributes:
       label: Criterios de Aceptación
       description: Lista de condiciones que deben cumplirse para que esta historia se considere completada.
@@ -36,6 +38,7 @@ body:
         required: true
 
   - type: textarea
+    id: related-tasks
     attributes:
       label: Tareas Relacionadas
       description: Lista de las tareas que se deben desarrollar para completar la historia de usuario.

@@ -14,6 +14,7 @@ body:
         Añade y completa la siguiente información de forma clara y precisa para el desarrollo de la tarea.
 
   - type: textarea
+    id: task-description
     attributes:
       label: Descripción de la Tarea
       description: ¿Qué se debe hacer exactamente en esta tarea?
@@ -22,6 +23,7 @@ body:
       required: true
 
   - type: dropdown
+    id: technical-area
     attributes:
       label: Área Técnica
       description: Clasifica esta trarea por área de trabajo.
@@ -37,6 +39,7 @@ body:
       default: 7
 
   - type: textarea
+    id: additional-notes
     attributes:
       label: Notas Adicionales (opcional)
       description: Detalles técnicos, decisiones clave o enlaces útiles.
