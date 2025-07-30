@@ -1,0 +1,61 @@
+name: Reporte de Bug
+Title: "Bug - "
+description: Plantilla para registrar un Bug que afecta a la aplicación web.
+labels: ["bug"]
+projects: ["PlayerCodeDev/7"]
+assignees:
+  - PlayerCodeDev
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Reporte de Bug
+
+        Añade y completa la siguente información de forma clara y precisa para solucionar el problema.
+
+  - type: input
+    attributes:
+      label: Parte Afectada
+      description: ¿Dónde ocurre el error? (página, componenete, endpoint, etc.).
+      placeholder: "Ej: Página de login / GET /api/movies"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Descripción del Problema
+      description: Describe clara y detalladamente el error observado.
+      placeholder: "Al intentar iniciar sesión con credenciales válidas, se muestra un error 500..."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Pasos para Reproducir el Error
+      description: Explica cómo se puede reproducir el bug paso a paso.
+      placeholder: |
+        1. Ir a la página de login.
+        2. Ingresar email y contraseña válidos.
+        3. Hacer clic en "Iniciar sesión".
+        4. Aparece error 500 en consola.
+      validations:
+        required: true
+
+  - type: dropdown
+    attributes:
+      label: Severidad
+      description: ¿Qué impacto tiene este error en la aplicación?
+      options:
+        - Crítico 🟥 (rompe funcionalidad principal)
+        - Alto 🟧 (afecta la experiencia del usuario)
+        - Medio 🟨 (funcional, pero molesto)
+        - Bajo 🟩 (detalle menor o visual)
+      default: 2
+
+  - type: textarea
+    attributes:
+      label: Información Adicional (opcional)
+      description: Adjunta logs, capturas, enalces o cualquier otra información útil.
+      placeholder: |
+        - Mensaje de error: `Cannot read property 'email' of undefined`
+        - Captura de pantalla: [Adjuntar aquí]
