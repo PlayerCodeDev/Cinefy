@@ -1,5 +1,5 @@
 name: Reporte de Bug
-Title: "Bug - "
+title: "Bug - "
 description: Plantilla para registrar un Bug que afecta a la aplicación web.
 labels: ["bug"]
 projects: ["PlayerCodeDev/7"]
@@ -55,7 +55,7 @@ body:
   - type: textarea
     attributes:
       label: Información Adicional (opcional)
-      description: Adjunta logs, capturas, enalces o cualquier otra información útil.
+      description: Adjunta logs, capturas, enlaces o cualquier otra información útil.
       placeholder: |
-        - Mensaje de error: `Cannot read property 'email' of undefined`
+        - Mensaje de error: `Cannot read property email of undefined`
         - Captura de pantalla: [Adjuntar aquí]
