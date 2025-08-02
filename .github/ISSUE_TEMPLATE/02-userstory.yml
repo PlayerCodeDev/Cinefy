@@ -22,8 +22,8 @@ body:
         como usuario registrado
         quiero poder iniciar sesión en la aplicación
         para acceder a mi lista personalizada de películas.
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: textarea
     id: acceptance-criteria
@@ -34,8 +34,8 @@ body:
         - [ ] El usuario puede...
         - [ ] Se muestra un mensaje de...
         - [ ] La lógica contempla...
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: textarea
     id: related-tasks
@@ -46,5 +46,5 @@ body:
         - [ ] #27 Agrear el cifredo de contraseñas
         - [ ] #86 Realizar las consultas a la base de datos
         - [ ] #40 Mostrar un mensaje de inicio de sesión
-      validations:
-        required: false
+    validations:
+      required: false

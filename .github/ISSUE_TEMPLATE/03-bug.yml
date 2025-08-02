@@ -41,8 +41,8 @@ body:
         2. Ingresar email y contraseña válidos.
         3. Hacer clic en "Iniciar sesión".
         4. Aparece error 500 en consola.
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: dropdown
     id: severaty
